@@ -99,3 +99,40 @@ header {
     border: 1px solid #ddd; /* Add a border for image separation */
     border-radius: 8px;
 }
+.feature p {
+    font-size: 14px;
+    color: #666; /* Add your preferred text color */
+}
+
+.earn-more button {
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Add your preferred button color */
+    color: #fff; /* Add your preferred text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ... Previous CSS code ... */
+section.four-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.image-container {
+    width: 23%; 
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 200px; 
+    object-fit: cover;
+}
+
+.text-and-description {
+    margin-top: 10px;
+}

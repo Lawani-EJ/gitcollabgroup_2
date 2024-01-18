@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Add your preferred background color */
+}
+
+.logo img {
+    max-height: 50px; /* Adjust the size as needed */
+}
+
+.user-actions button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    background-color: #4CAF50; /* Add your preferred button color */
+    color: #fff; /* Add your preferred text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.intro-section {
+    position: relative;
+    text-align: center;
+}

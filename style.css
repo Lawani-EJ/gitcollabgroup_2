@@ -136,3 +136,24 @@ section.four-images {
 .text-and-description {
     margin-top: 10px;
 }
+
+.text-and-description h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.text-and-description p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+section.wide-image {
+    text-align: center;
+}
+
+.wide-image img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+}

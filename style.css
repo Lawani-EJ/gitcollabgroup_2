@@ -157,3 +157,43 @@ section.wide-image {
     max-height: 600px;
     object-fit: cover;
 }
+
+footer {
+    background-color: #333; /* Set your preferred background color */
+    color: #fff; /* Set your preferred text color */
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    text-align: right;
+}
+
+.logo-container img {
+    max-width: 100px; /* Adjust the maximum width as needed */
+}
+
+.footer-section {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
